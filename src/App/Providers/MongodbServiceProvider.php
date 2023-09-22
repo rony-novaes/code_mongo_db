@@ -4,6 +4,7 @@ namespace Code\MongoDb\App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Code\MongoDb\Eloquent\Model;
+use Code\MongoDb\Connection;
 use Code\MongoDb\Queue\MongoConnector;
 
 class MongodbServiceProvider extends ServiceProvider
