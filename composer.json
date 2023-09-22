@@ -1,0 +1,22 @@
+{
+    "name": "rony-novaes/code_mongo_db",
+    "description": "Conexões mongoDB",
+    "type": "library",
+    "license": "prioritary",
+    "require": {
+    	"php": "^7.3|^8.0",
+        "laravel/framework": "^8.12"
+    },
+    "autoload": {
+	    "psr-4": {
+	      "Code\\MongoDb\\": "src/"
+	    }
+	},
+    "extra": {
+	    "laravel": {
+	        "providers": [
+	            "Code\\MongoDb\\App\\Providers\\CheckpointServiceProvider"
+	        ]
+	    }
+	}
+}
