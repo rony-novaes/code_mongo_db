@@ -14,7 +14,7 @@
     "extra": {
 	    "laravel": {
 	        "providers": [
-	            "Code\\MongoDb\\App\\Providers\\CheckpointServiceProvider"
+	            "Code\\MongoDb\\App\\Providers\\MongodbServiceProvider"
 	        ]
 	    }
 	}
